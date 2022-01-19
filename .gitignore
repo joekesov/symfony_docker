@@ -1,10 +1,10 @@
 ###> symfony/framework-bundle ###
-/src/.env.local
-/src/.env.local.php
-/src/.env.*.local
-/src/public/bundles/
-/src/var/
-/src/vendor/
+#/src/.env.local
+#/src/.env.local.php
+#/src/.env.*.local
+#/src/public/bundles/
+#/src/var/
+#/src/vendor/
 ###
 
 .DS_Store

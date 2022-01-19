@@ -1,11 +1,12 @@
 ###> symfony/framework-bundle ###
-#/src/.env.local
-#/src/.env.local.php
-#/src/.env.*.local
-#/src/public/bundles/
-#/src/var/
-#/src/vendor/
-###
+#/.env.local
+#/.env.local.php
+#/.env.*.local
+#/config/secrets/prod/prod.decrypt.private.php
+#/public/bundles/
+#/var/
+#/vendor/
+###< symfony/framework-bundle ###
 
 .DS_Store
 .idea

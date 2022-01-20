@@ -20,6 +20,8 @@ services:
     container_name: '${APP_NAME}-php'
     build:
       context: docker/php
+    environment:
+      - 'DATABASE_URL=mysql://root:${MYSQL_ROOT_PASS}@database:3306/${MYSQL_DB}?serverVersion=8.0'
     ports:
       - '${PHP_PORT}:9000'
     volumes:
